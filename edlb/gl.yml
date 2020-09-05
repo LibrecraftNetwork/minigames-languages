@@ -1,0 +1,98 @@
+xas: asass
+lateral:
+  lobby:
+    header: '&e&lEDLB'
+    puntos: '&ePuntos: &f%var%'
+    asesinatos: '&eAsasinatos: &f%var%'
+    muertes: '&eMortes: &f%var%'
+    ganadas: '&eGañadas: &f%var%'
+    perdidas: '&ePerdidas: &f%var%'
+    monedas: '&eMoedas: &f%var%'
+    skin: '&eAspecto: &f%var%'
+    kit: '&eKit: &f%var%'
+    skinno: '&eAspecto: &f-'
+    kitno: '&eAspecto: &f-'
+  ingame:
+    players: '&a&lCorredores'
+    time: '&c&lTempo'
+    map: '&b&lMapa'
+arena:
+  join:
+    player: '&a&l%map% &7%player% &aentrou á arena &7(&e%pl%&7/&e%maxpl%&7)'
+    joinwhenfull: '&a&l%map% &7%player% &aha entrado a la arena &launque estaba llena'
+  death:
+    killed: '&a&l%map% &e%asesino% &amatouche'
+    runner: '&a&l%map% &7%p% &cmorreu'
+    beastkilledrunner: '&a&l%map% &cA besta matou a &7%p%'
+    beast: '&a&l%map% &cA besta morreu'
+    runnerkilledbeast: '&a&l%map% &7%p% &cmatou á besta'
+  start:
+    shorted: '&a&l%map% &aArena chea? Comezamos en &e%segundos% &asegundos!'
+    notplayers: '&a&l%map% &cNecesitamos &e%numero% &cxogadores para empezar'
+  leave:
+    penalice: '&a&l%map% &cSaíches da partida en curso &7(&c-%puntos% &epuntos&7)'
+  error: '&cOcurriu un erro con esta arena'
+  arenafull: '&2A arena está chea'
+  gamealreadystarted: '&cO xogo xa empezou'
+  game:
+    nominplayers: '&a&l%map% &cFaltan xogadores. Cancelando tempo...'
+    beastchosen: '&a&l%map% &e&n%p%&r&e foi elixido como &lBESTA!'
+    starting: '&a&l%map% &eEmpezamos en %t%s!'
+    started: '&e&lCORRE! A besta será liberada en 15s!'
+    title:
+      start: '&6&lEmpezamos en'
+      start2: '&c%segundos% &6segundos'
+    skinapplied: '&b&lSKIN &aAspecto aplicado'
+    run: '&c&l&CORRE!'
+    killthem: '&c&lMÁTAOS!'
+    killthem2: '&cNon teñas piedade'
+    paseused: '&a&l%map% &b&n%b%&l usou o pase besta'
+  noexist: '&cA arena non existe!'
+  noavailable: '&c&lERROR&c Non hai xogos dispoñibeis'
+locale:
+  localename: Galego
+  localizedname: '&fGa&ble&fgo'
+  changed: Cambiachelo teu idioma a §fGa§ble§fgo
+effect:
+  title:
+    givesec: '&b+%sec%&es'
+    effectname: '&e%efecto%'
+  applied: '&eAgora tes &b%efecto% &epor &b%sec% &esec'
+chat:
+  global: '&c&l[G] &7%player%&7: &f%mensaje%'
+  cmddenygame: '&cNon podes executar ese comando no xogo! Sal con &f/salir'
+  noperms: '&cNon tes permisos para facer iso!'
+  nopermsvip: '&c&lERROR &cEste comando é para &6&lVIPS'
+  denyduringgame: '&c&lERROR &cNon podes facer isto durante la partida'
+stats:
+  action:
+    killbeast: matala besta
+    killrunner: matar a un corredor
+    wingame: gañala partida
+  wonpoints: '&b&lPUNTOS &b+&e%puntos% &bpuntos (&e%monedas% &bmoedas) por &e%accion%'
+actionbar:
+  map: Mapa - &c%map% &r %p%/%maxp%
+  starting: '&cO xogo comeza en &r%t%s'
+  runnow: '&c&lCORRE! &7A besta será liberada en &c%t%s'
+  endinggame: Volvendo ao recibidor en %t%s!
+setup:
+  writename: Escribe un nome para la arena!
+  signdeleted: Cartel eliminado!
+  configurefirst: '&cDebes configurala arena completamente antes de colocar carteles!'
+checkpoint:
+  set: '&b&lCHECK&f&lPOINT &aEstablecido!'
+  return: '&b&lCHECK&f&lPOINT &7&lClic esquerdo&r&7 pra volver eiquí'
+  notset: '&b&lCHECK&f&lPOINT &cNon tes ningún Checkpoint configurado!'
+happyhour:
+  prefix: '&b&lHORA FELIZ&e '
+  double: '&aMoedas dobles activadas durante %horas%'
+  multiply: '&eAs tuas moedas multiplicáronse &ax2'
+store:
+  taken: Retiráronchese %puntos% moedas pola compra
+  alreadykit: '&b&lKIT &cXa tes un kit comprado. Emprégao antes de seleccionar outro'
+  alreadyskin: '&b&lSKIN &cXa tes un aspecto comprado. Emprégao antes de selecionar
+    outro otro'
+  nomoney: '&cNon tes suficientes puntos'
+  buypase: '&b&lEquipachelo pase besta'
+compass:
+  distance: '&7Distancia a &c%jugador%&7: &c%bloques% &7metros'

@@ -1,0 +1,108 @@
+xas: asass
+lateral:
+  header: '&e&lEDLB'
+  puntos: '&ePuntos: &f%var%'
+  asesinatos: '&eAsesinatos: &f%var%'
+  muertes: '&eMuertes: &f%var%'
+  ganadas: '&eGanadas: &f%var%'
+  perdidas: '&ePerdidas: &f%var%'
+  monedas: '&eMonedas: &f%var%'
+  skin: '&eSkin: &f%var%'
+  kit: '&eKit: &f%var%'
+  skinno: '&eSkin: &f-'
+  lobby:
+    header: '&e&lEDLB'
+    puntos: '&ePuntos: &f%var%'
+    asesinatos: '&eAsesinatos: &f%var%'
+    muertes: '&eMuertes: &f%var%'
+    ganadas: '&eGanadas: &f%var%'
+    perdidas: '&ePerdidas: &f%var%'
+    monedas: '&eMonedas: &f%var%'
+    skin: '&eSkin: &f%var%'
+    kit: '&eKit: &f%var%'
+    skinno: '&eSkin: &f-'
+    kitno: '&eKit: &f-'
+  ingame:
+    players: '&a&lCorredores'
+    time: '&c&lTiempo'
+    map: '&b&lMapa'
+arena:
+  join:
+    player: '&a&l%map% &7%player% &aha entrado a la arena &7(&e%pl%&7/&e%maxpl%&7)'
+    joinwhenfull: '&a&l%map% &7%player% &aha entrado a la arena &launque estaba llena'
+  death:
+    killed: '&a&l%map% &e%asesino% &ate ha matado'
+    runner: '&a&l%map% &7%p% &cmurio'
+    beastkilledrunner: '&a&l%map% &cLa bestia ha matado a &7%p%'
+    beast: '&a&l%map% &cLa bestia murio'
+    runnerkilledbeast: '&a&l%map% &7%p% &cmato a la bestia'
+  start:
+    shorted: '&a&l%map% &a&Arena llena? &Que empezamos en &e%segundos% &asegundos!'
+    notplayers: '&a&l%map% &cNecesitas &e%numero% &cjugadores para empezar'
+  leave:
+    penalice: '&a&l%map% &cHas salido de la partida en curso &7(&c-%puntos% &epuntos&7)'
+  error: '&cHa ocurrido un error con esta arena'
+  arenafull: '&2La arena está llena'
+  gamealreadystarted: '&cEl juego ya ha empezado'''
+  game:
+    nominplayers: '&a&l%map% &cFaltan jugadores. Cancelando tiempo...'
+    beastchosen: '&a&l%map% ¡&e&n%p%&r&e ha sido elegido como la &lBESTIA!'
+    starting: '&a&l%map% &eEmpezamos en %t%s!'
+    started: '&e&l¡CORRE! La bestia será liberada en 15s!'
+    title:
+      start: '&6&lEmpezamos en'
+      start2: '&c%segundos% &6segundos'
+    skinapplied: '&b&lSKIN &aDisfraz aplicado'
+    run: '&c&l&CORRE!'
+    killthem: '&c&l&MÁTALOS!'
+    killthem2: '&cNo tengas piedad'
+    paseused: '&a&l%map% &b&n%b%&l ha usado el pase bestia'
+  noexist: '&cLa arena no existe!'
+  noavailable: '&c&lERROR&c No hay arenas disponibles'
+locale:
+  localename: Français
+  localizedname: '&1Fra&fnça&4is'
+  changed: Cambiaste tu idioma a §1Fra§fnça§4is
+effect:
+  title:
+    givesec: '&b+%sec%&es'
+    effectname: '&e%efecto%'
+  applied: '&eAhora tienes &b%efecto% &epor &b%sec% &esec'
+chat:
+  global: '&c&l[G] &7%player%&7: &f%mensaje%'
+  cmddenygame: '&c¡No puedes ejecutar ese comando en juego! Sal con &f/salir'
+  noperms: '&cNo tienes permisos para hacer eso!'
+  nopermsvip: '&c&lERROR &cEste comando es para &6&lVIPS'
+  denyduringgame: '&c&lERROR &cNo puedes hacer esto durante la partida'
+stats:
+  action:
+    killbeast: matar a la bestia
+    killrunner: matar a un corredor
+    wingame: ganar la partida
+  wonpoints: '&b&lPUNTOS &b+&e%puntos% &bpuntos (&e%monedas% &bmonedas) por &e%accion%'
+actionbar:
+  map: Mapa - &c%map% &r %p%/%maxp%
+  starting: '&cEl juego empieza en &r%t%s'
+  runnow: '&c&lCORRE! &7La bestia sera liberada en &c%t%s'
+  endinggame: ¡Volviendo al lobby en %t%s!
+setup:
+  writename: ' ¡Escribe un nombre para la arena!'
+  signdeleted: ¡Cartel eliminado!
+  configurefirst: '&c¡Debes configurar la arena completamente antes de colocar carteles!'
+checkpoint:
+  set: '&b&lCHECK&f&lPOINT &a¡Establecido!'
+  return: '&b&lCHECK&f&lPOINT &7&lClic Izquierdo&r&7 para volver aquí'
+  notset: '&b&lCHECK&f&lPOINT &c¡No tienes ningun Checkpoint configurado!'
+happyhour:
+  prefix: '&b&lHORA FELIZ&e '
+  double: '&aMonedas dobles activadas durante %horas%'
+  multiply: '&eTus monedas han sido multiplicadas &ax2'
+store:
+  taken: Se han retirado %puntos% monedas por la compra
+  alreadykit: '&b&lKIT &cYa tienes un kit comprado. &salo antes de seleccionar otro'
+  alreadyskin: '&b&lSKIN &cYa tienes una skin comprada. &salo antes de seleccionar
+    otro'
+  nomoney: '&cNo tienes suficientes puntos'
+  buypase: '&b&lEquipado con pase bestia'
+compass:
+  distance: '&7Distancia a &c%jugador%&7: &c%bloques% &7metros'

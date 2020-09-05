@@ -1,0 +1,110 @@
+actionbar:
+  endinggame: Going back to lobby in %t%s!
+  map: Map - &c%map% &r %p%/%maxp%
+  runnow: '&c&lRUN! &7The beast will be released in &c%t%s'
+  starting: '&cGame starting in &r%t%s'
+arena:
+  arenafull: '&2The game is full'
+  death:
+    beast: '&a&l%map% &cThe beast died'
+    beastkilledrunner: '&a&l%map% &cThe beast has killed &7%p%'
+    killed: '&a&l%map% &e%asesino% &akilled you'
+    runner: '&a&l%map% &7%p% &cdied'
+    runnerkilledbeast: '&a&l%map% &7%p% &ckilled the beast'
+  error: '&cThere was an error trying to play this arena.'
+  game:
+    beastchosen: '&a&l%map% &e&n%p%&r&e has been chosen as the &lBEAST!'
+    killthem: '&c&l&KILL THEM!'
+    killthem2: '&cKILL THEM ALL'
+    nominplayers: '&a&l%map% &cThere are not enough players to start. Timer stopped...'
+    paseused: '&a&l%map% &b&n%b%&l used beast pass'
+    run: '&c&lRUN!'
+    skinapplied: '&b&lSKIN &aapplied'
+    started: '&e&lRUN! The beast will be released in 15sec!'
+    starting: '&a&l%map% &eStarting in %t%s!'
+    title:
+      start: '&6&lStarting in'
+      start2: '&c%segundos% &6seconds'
+  gamealreadystarted: '&cThe game already started'
+  join:
+    joinwhenfull: '&a&l%map% &7%player% &ajoined the game &leven though it was full.'
+    player: '&a&l%map% &7%player% &ajoined the game &7(&e%pl%&7/&e%maxpl%&7)'
+  leave:
+    penalice: '&a&l%map% &cYou left an active game &7(&c-%puntos% &escore&7)'
+  noavailable: '&c&lERROR&c There are no available arenas'
+  noexist: '&cThe arena does not exist!'
+  start:
+    notplayers: '&a&l%map% &cYou need &e%numero% &cplayers to start'
+    shorted: '&a&l%map% &aGame full? Timer set to &e%segundos% &aseconds!'
+chat:
+  cmddenygame: '&cYou cannot use that command ingame! Leave using &f/salir'
+  denyduringgame: '&c&lERROR &cYou cannot do that ingame!'
+  global: '&c&l[G] &7%player%&7: &f%mensaje%'
+  noperms: '&cNo permission!'
+  nopermsvip: '&c&lERROR &cThis command is exclusive for &6&lVIP &crank'
+checkpoint:
+  notset: '&b&lCHECK&f&lPOINT &cYou do not have any checkpoint registered!'
+  return: '&b&lCHECK&f&lPOINT &7&lLeft click&r&7 to come back here'
+  set: '&b&lCHECK&f&lPOINT &aCheckpoint set!'
+compass:
+  distance: '&7Distance to &c%jugador%&7: &c%bloques% &7blocks'
+effect:
+  applied: '&eYou now have &b%efecto% &efor &b%sec% &esec'
+  title:
+    effectname: '&e%efecto%'
+    givesec: '&b+%sec%&es'
+happyhour:
+  double: '&aDouble coins for %horas%'
+  multiply: '&eYour coins have been multiplied &ax2'
+  prefix: '&b&lHAPPY HOUR&e '
+lateral:
+  asesinatos: '&eKills: &f%var%'
+  ganadas: '&eWins: &f%var%'
+  header: '&e&lEDLB'
+  ingame:
+    map: '&b&lMap'
+    players: '&a&lRunners'
+    time: '&c&lTime'
+  kit: '&eKit: &f%var%'
+  lobby:
+    asesinatos: '&eKills: &f%var%'
+    ganadas: '&eWins: &f%var%'
+    header: '&e&lEDLB'
+    kit: '&eKit: &f%var%'
+    kitno: '&eKit: &f-'
+    monedas: '&eCoins: &f%var%'
+    muertes: '&eDeaths: &f%var%'
+    perdidas: '&eLoses: &f%var%'
+    puntos: '&ePoints: &f%var%'
+    skin: '&eSkin: &f%var%'
+    skinno: '&eSkin: &f-'
+  monedas: '&eCoins: &f%var%'
+  muertes: '&eDeaths: &f%var%'
+  perdidas: '&eLoses: &f%var%'
+  puntos: '&eScore: &f%var%'
+  skin: '&eSkin: &f%var%'
+  skinno: '&eSkin: &f-'
+locale:
+  changed: Cambiaste tu idioma a §4Eng§1lish
+  localename: English
+  localizedname: '&4Eng&1lish'
+setup:
+  configurefirst: '&cDebes configurar la arena completamente antes de colocar carteles!'
+  signdeleted: Cartel eliminado!
+  writename: ' Escribe un nombre para la arena!'
+stats:
+  action:
+    killbeast: killed the beast
+    killrunner: killed a runner
+    wingame: won the game
+  wonpoints: '&b&lPOINTS &b+&e%puntos% &bpoints (&e%monedas% &bcoins) because you
+    &e%accion%'
+store:
+  alreadykit: '&b&lKIT &cYou already purchased a kit. &eUse it before buying a new
+    one'
+  alreadyskin: '&b&lSKIN &cYou already purchased a skin. &eUse it before buying a
+    new one'
+  buypase: '&b&lBeast pass selected'
+  nomoney: '&cYou do not have enough points'
+  taken: '%puntos% points taken'
+xas: asass

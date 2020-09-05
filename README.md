@@ -1,0 +1,2 @@
+# idiomas
+Traducción de minijuegos

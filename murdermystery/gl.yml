@@ -1,0 +1,141 @@
+locale:
+  localename: Español
+  localizedname: '&4Es&6pañ&4ol'
+  changed: Cambiaste tu idioma a §4Es§6pañ§4ol
+xas: asass
+potion:
+  title: '&bPocion de %type%'
+  subtitle: '&eDura %time% segundos'
+  alreadyinuse: '&fMurder&cMystery &7» &7Esta poción ya está en uso'
+  needmoregold: '&fMurder&cMystery &7» &7No tienes oro suficiente para usar las  pociones'
+  used: '&fMurder&cMystery &7» &eUsaste una poción'
+progressbar:
+  '1': '&a▆'
+  '2': '&c▆'
+sword:
+  cooldownab: '&a&lEspera &f[%progress%&f]'
+  ready: '&a&lYa puedes volver a lanzar la espada'
+  cooldown: '&fMurder&cMystery &7» &7Espera para usar la espada'
+bow:
+  cooldown: '&fMurder&cMystery &7» &7Espera para usar el arco'
+  cooldownab: '&a&lEspera &f[%progress%&f]'
+  ready: '&a&lYa puedes usar el arco de nuevo'
+  dropped: '&cArco: &aLibre'
+  notdropped: '&cArco: &4Ocupado'
+cmd:
+  reset:
+    error: '&fMurder&cMystery &7» &7Could not reset stats, play games then you will
+      be able to reset stats!'
+    success: '&fMurder&cMystery &7» &eStats was reset successfully!'
+  error:
+    notonline: '&fMurder&cMystery &7» &7That player is not online!'
+arena:
+  leave:
+    personalmessage: '&cHas abandonado el juego'
+  game:
+    death:
+      title: '&cFuiste asesinado'
+      subtitle: '&epor &c%killer%'
+    swordreceived: '&fMurder&cMystery &7» &7El asesino ha recibido la espada'
+    bowlocation: '&eDistancia al arco: &b(%loc%) &epasos'
+    playerlocation: '&f%player% &bestá a &e%distance%m'
+    receivedbow:
+      title: '&aHas recibido un arco'
+      subtitle: '&fTiene una flecha para disparar al asesino!'
+    spectating1: '&fMurder&cMystery &7» &eAhora eres un espectador'
+    spectating2: '&fMurder&cMystery &7» &eEres un espectador. Usa /salir para abandonar.
+      &c&lRECUERDA: &eLos jugadores NO VEN el chat de espectador'
+    deathplayer: '&fMurder&cMystery &7» &7%player% &7fue asesinado'
+    detectivedie: '&fMurder&cMystery &7» &eEl detective &7%player% &eha muerto'
+    bowpicked: '&fMurder&cMystery &7» &eAlguien ha recogido el arco'
+    murderkilled: '&fMurder&cMystery &7» &eEl asesino &7%player% &efue neutralizado'
+    joinedwhenfull: '&fMurder&cMystery &7» &e%player% &7ha entrado a la arena &launque
+      estaba llena&7!'
+  start:
+    title1: '&cEmpieza en'
+    title2: '&e%time% &esegundos'
+    timestarting: '&fMurder&cMystery &7» &eEmpezando cuenta atrás...'
+    nominplayers: '&fMurder&cMystery &7» &7No hay jugadores suficientes para empezar.
+      Cancelando...'
+  rolegiven:
+    murder:
+      title: '&fTu rol: &c&lASESINO'
+      subtitle: '&fMátalos a todos! Que no te descubran...'
+    detective:
+      title: '&fTu rol: &b&lDETECTIVE'
+      subtitle: '&fEncuentra el asesino y mátalo'
+    innocent:
+      title: '&fTu rol: &a&lINOCENTE'
+      subtitle: '&fRecoge oro o escóndete'
+  wait:
+    countdown: '&fMurder&cMystery &7» &eEl juego empieza en %time% segundos'
+  join:
+    error: '&fMurder&cMystery &7» &7Esta arena ya ha empezado'
+    alreadyplaying: '&fMurder&cMystery &7» &7Ya estás en una arena'
+    gamefull: '&fMurder&cMystery &7» &7La arena está completa'
+    noarenas: '&fMurder&cMystery &7» &7No hay arenas disponibles'
+    playerjoined: '&fMurder&cMystery &7» &e%player% &7ha entrado &8(%min%/%max%)&7!'
+    playerleaved: '&fMurder&cMystery &7» &7%player% &7ha salido&7!'
+    notinarena: '&fMurder&cMystery &7» &7No estás en una arena'
+  state:
+    playing: '&cJugando'
+    waiting: '&aLobbys'
+    starting: '&cEmpezando'
+    voting: '&dVotando'
+scoreboard:
+  vote:
+    title: '&aVotación de mapa'
+    map: '&e%map% &b(%votes%)'
+  lobby:
+    title: '&LMURDER &C&LMYSTERY'
+  waiting:
+    title: '&LMURDER &C&LMYSTERY'
+  countdown:
+    title: '&LMURDER &C&LMYSTERY'
+  game:
+    title: '&LMURDER &C&LMYSTERY'
+  stats:
+    title: '&LMURDER &C&LMYSTERY'
+vote:
+  timestarted: '&fMurder&cMystery &7» &eHa empezado el tiempo para elegir mapa.  Utiliza
+    el objeto de tu inventario.'
+  mapwin: '&fMurder&cMystery &7» &eSe ha elegido el mapa &b%map%'
+  noperms: '&fMurder&cMystery &7» &7No tienes permisos para votar'
+  alreadyselected: '&fMurder&cMystery &7» &7Ya se ha elegido la arena'
+score:
+  reason:
+    pickgold: por recoger oro
+    killplayer: por matar un jugador
+  received: '&6+&e%score% &6puntos (%reason%)'
+chat:
+  prefixspec: '&e&lESPECTADOR: &f'
+roles:
+  murder: '&c&lAsesino'
+  detective: '&b&lDetective'
+  innocent: '&a&lInocente'
+  death: Muerto
+setup:
+  lobbyset: '&fMurder&cMystery &7» &eLobby has been set!'
+  arenacreated: '&fMurder&cMystery &7» &eArena has been created!'
+  arenaalreadyexists: '&fMurder&cMystery &7» &eArena already exits!'
+  arenaremoved: '&fMurder&cMystery &7» &eArena has been removed!'
+  arenanotexists: '&fMurder&cMystery &7» &7Arena not exits!'
+  waitlobbyset: '&fMurder&cMystery &7» &eWait lobby has been set!'
+  addedpotion: '&fMurder&cMystery &7» &eAdded mystery potion block!'
+  removedpotion: '&fMurder&cMystery &7» &eRemoved mystery potion block!'
+  spectatorset: '&fMurder&cMystery &7» &eSpectator position has been set!'
+  playerspawadd: '&fMurder&cMystery &7» &ePlayer spawn added!'
+  goldspawnadd: '&fMurder&cMystery &7» &eGold spawn added!'
+signs:
+  header: '&lMurderMistery'
+  state:
+    ingame: '&4In_Game'
+    join: '&AAcceder'
+    starting: '&6Comenzando...'
+    arenainfo: '&0&o%arena%'
+    players: min/max
+  random:
+    '1': '&aMurder'
+    '2': '&0Pulsa para elegir'
+    '3': '&0arena aleatoria'
+    '4': ''

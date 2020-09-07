@@ -1,7 +1,7 @@
 locale:
-  localename: Español
-  localizedname: '&4Es&6pañ&4ol'
-  changed: Cambiaste tu idioma a §4Es§6pañ§4ol
+  localename: English
+  localizedname: '&4Eng&1lish'
+  changed: You changed your language to &4Eng&1lish
 xas: asass
 potion:
   title: '&bPocion de %type%'
@@ -34,8 +34,8 @@ arena:
     personalmessage: '&cHas abandonado el juego'
   game:
     death:
-      title: '&cFuiste asesinado'
-      subtitle: '&epor &c%killer%'
+      title: '&cYou were killed'
+      subtitle: '&eby &c%killer%'
     swordreceived: '&fMurder&cMystery &7» &7El asesino ha recibido la espada'
     bowlocation: '&eDistancia al arco: &b(%loc%) &epasos'
     playerlocation: '&f%player% &bestá a &e%distance%m'
@@ -45,27 +45,24 @@ arena:
     spectating1: '&fMurder&cMystery &7» &eAhora eres un espectador'
     spectating2: '&fMurder&cMystery &7» &eEres un espectador. Usa /salir para abandonar.
       &c&lRECUERDA: &eLos jugadores NO VEN el chat de espectador'
-    deathplayer: '&fMurder&cMystery &7» &7%player% &7fue asesinado'
-    detectivedie: '&fMurder&cMystery &7» &eEl detective &7%player% &eha muerto'
     bowpicked: '&fMurder&cMystery &7» &eAlguien ha recogido el arco'
-    murderkilled: '&fMurder&cMystery &7» &eEl asesino &7%player% &efue neutralizado'
     joinedwhenfull: '&fMurder&cMystery &7» &e%player% &7ha entrado a la arena &launque
       estaba llena&7!'
   start:
-    title1: '&cEmpieza en'
-    title2: '&e%time% &esegundos'
+    title1: '&cStarting in'
+    title2: '&e%time% &eseconds'
     timestarting: '&fMurder&cMystery &7» &eEmpezando cuenta atrás...'
     nominplayers: '&fMurder&cMystery &7» &7No hay jugadores suficientes para empezar.
       Cancelando...'
   rolegiven:
     murder:
-      title: '&fTu rol: &c&lASESINO'
+      title: '&fRole: &c&lMURDER'
       subtitle: '&fMátalos a todos! Que no te descubran...'
     detective:
-      title: '&fTu rol: &b&lDETECTIVE'
+      title: '&fRole: &b&lDETECTIVE'
       subtitle: '&fEncuentra el asesino y mátalo'
     innocent:
-      title: '&fTu rol: &a&lINOCENTE'
+      title: '&fRole: &a&lINNOCENT'
       subtitle: '&fRecoge oro o escóndete'
   wait:
     countdown: '&fMurder&cMystery &7» &eEl juego empieza en %time% segundos'
@@ -108,12 +105,12 @@ score:
     killplayer: por matar un jugador
   received: '&6+&e%score% &6puntos (%reason%)'
 chat:
-  prefixspec: '&e&lESPECTADOR: &f'
+  prefixspec: '&e&lSPECTATOR: &f'
 roles:
-  murder: '&c&lAsesino'
+  murder: '&c&lMurder'
   detective: '&b&lDetective'
-  innocent: '&a&lInocente'
-  death: Muerto
+  innocent: '&a&lInnocent'
+  death: Dead
 setup:
   lobbyset: '&fMurder&cMystery &7» &eLobby has been set!'
   arenacreated: '&fMurder&cMystery &7» &eArena has been created!'
@@ -139,3 +136,24 @@ signs:
     '2': '&0Pulsa para elegir'
     '3': '&0arena aleatoria'
     '4': ''
+deathcause:
+  unknown: '&fMurder&cMystery &7» &7%player% &emurió por causas desconocidas'
+  murder2detective: '&fMurder&cMystery &7» &eEl asesino &c%player% &efue neutralizado
+    por un detective'
+  murder2inocent: '&fMurder&cMystery &7» &eEl asesino &c%player% &ese encontró con
+    un inocente armado'
+  detective2murder: '&fMurder&cMystery &7» &eEl detective &b%player% &emurió a manos
+    de un asesino'
+  detective2innocent: '&fMurder&cMystery &7» &eUn inocente confundió al detective
+    &b%player% &econ un asesino'
+  inocent2murderer: '&fMurder&cMystery &7» &a%player% &efue asesinado'
+  inocent2detective: '&fMurder&cMystery &7» &eUn mal detective se llevó por delante
+    a &a%player%'
+  mistakeino2ino: '&fMurder&cMystery &7» &a%player% &efue asesinado por un compañero'
+  mistakedet2det: '&fMurder&cMystery &7» &b%player% &efue ejecutado por un mal detective'
+  falldamage: '&fMurder&cMystery &7» &7%player% &ese estrelló contra el suelo'
+  waterdamage: '&fMurder&cMystery &7» &7%player% &ese ahogó'
+  lavadamage: '&fMurder&cMystery &7» &7%player% &ese fundió en la lava'
+  mistaking: '&fMurder&cMystery &7» &7%player% &efue eliminado por equivocarse'
+  cactus: '&fMurder&cMystery &7» &7%player% &ese pinchó hasta la muerte'
+  void: '&fMurder&cMystery &7» &7%player% &etocó fondo'

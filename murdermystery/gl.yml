@@ -1,25 +1,25 @@
 locale:
-  localename: Español
-  localizedname: '&4Es&6pañ&4ol'
-  changed: Cambiaste tu idioma a §4Es§6pañ§4ol
+  localename: Galego
+  localizedname: '&fGa&ble&fgo'
+  changed: Cambiachelo teu idioma a &fGa&ble&fgo
 xas: asass
 potion:
-  title: '&bPocion de %type%'
+  title: '&bPoción de %type%'
   subtitle: '&eDura %time% segundos'
-  alreadyinuse: '&fMurder&cMystery &7» &7Esta poción ya está en uso'
-  needmoregold: '&fMurder&cMystery &7» &7No tienes oro suficiente para usar las  pociones'
-  used: '&fMurder&cMystery &7» &eUsaste una poción'
+  alreadyinuse: '&fMurder&cMystery &7» &7Esta poción xa está en uso'
+  needmoregold: '&fMurder&cMystery &7» &7Non tes ouro suficiente para usar as pocións'
+  used: '&fMurder&cMystery &7» &eUsaches unha poción'
 progressbar:
   '1': '&a▆'
   '2': '&c▆'
 sword:
   cooldownab: '&a&lEspera &f[%progress%&f]'
-  ready: '&a&lYa puedes volver a lanzar la espada'
-  cooldown: '&fMurder&cMystery &7» &7Espera para usar la espada'
+  ready: '&a&lXa podes volver lanza-la espada'
+  cooldown: '&fMurder&cMystery &7» &7Espera para usar a espada'
 bow:
-  cooldown: '&fMurder&cMystery &7» &7Espera para usar el arco'
+  cooldown: '&fMurder&cMystery &7» &7Espera para usar o arco'
   cooldownab: '&a&lEspera &f[%progress%&f]'
-  ready: '&a&lYa puedes usar el arco de nuevo'
+  ready: '&a&lXa podes volver usar o arco'
   dropped: '&cArco: &aLibre'
   notdropped: '&cArco: &4Ocupado'
 cmd:
@@ -31,56 +31,53 @@ cmd:
     notonline: '&fMurder&cMystery &7» &7That player is not online!'
 arena:
   leave:
-    personalmessage: '&cHas abandonado el juego'
+    personalmessage: '&cAbandonachelo xogo'
   game:
     death:
-      title: '&cFuiste asesinado'
+      title: '&cFuches asasinado'
       subtitle: '&epor &c%killer%'
-    swordreceived: '&fMurder&cMystery &7» &7El asesino ha recibido la espada'
-    bowlocation: '&eDistancia al arco: &b(%loc%) &epasos'
+    swordreceived: '&fMurder&cMystery &7» &7O asasino recibiu a espada'
+    bowlocation: '&eDistancia ao arco: &b(%loc%) &epasos'
     playerlocation: '&f%player% &bestá a &e%distance%m'
     receivedbow:
-      title: '&aHas recibido un arco'
-      subtitle: '&fTiene una flecha para disparar al asesino!'
-    spectating1: '&fMurder&cMystery &7» &eAhora eres un espectador'
-    spectating2: '&fMurder&cMystery &7» &eEres un espectador. Usa /salir para abandonar.
-      &c&lRECUERDA: &eLos jugadores NO VEN el chat de espectador'
-    deathplayer: '&fMurder&cMystery &7» &7%player% &7fue asesinado'
-    detectivedie: '&fMurder&cMystery &7» &eEl detective &7%player% &eha muerto'
-    bowpicked: '&fMurder&cMystery &7» &eAlguien ha recogido el arco'
-    murderkilled: '&fMurder&cMystery &7» &eEl asesino &7%player% &efue neutralizado'
-    joinedwhenfull: '&fMurder&cMystery &7» &e%player% &7ha entrado a la arena &launque
-      estaba llena&7!'
+      title: '&aRecibiches un arco'
+      subtitle: '&fTen unha frecha para disparar ao asasino!'
+    spectating1: '&fMurder&cMystery &7» &eAgora eres un espectador'
+    spectating2: '&fMurder&cMystery &7» &eEres un espectador. Emprega /salir para abandonar.
+      &c&lLEMBRA: &eOs jugadores NON VEN o chat de espectador'
+    bowpicked: '&fMurder&cMystery &7» &eAlguén recolleu o arco'
+    joinedwhenfull: '&fMurder&cMystery &7» &e%player% &7entrou na arena &launque
+      estaba chea&7!'
   start:
-    title1: '&cEmpieza en'
+    title1: '&cComeza en'
     title2: '&e%time% &esegundos'
-    timestarting: '&fMurder&cMystery &7» &eEmpezando cuenta atrás...'
-    nominplayers: '&fMurder&cMystery &7» &7No hay jugadores suficientes para empezar.
+    timestarting: '&fMurder&cMystery &7» &eComezando tempo cara atrás...'
+    nominplayers: '&fMurder&cMystery &7» &7Non hai xogadores suficientes para empezar.
       Cancelando...'
   rolegiven:
     murder:
-      title: '&fTu rol: &c&lASESINO'
-      subtitle: '&fMátalos a todos! Que no te descubran...'
+      title: '&fO teu rol: &c&lASASINO'
+      subtitle: '&fMátaos a todos! Que non che descubran...'
     detective:
-      title: '&fTu rol: &b&lDETECTIVE'
-      subtitle: '&fEncuentra el asesino y mátalo'
+      title: '&fO teu rol: &b&lDETECTIVE'
+      subtitle: '&fAtopa ao asasino e mátao'
     innocent:
-      title: '&fTu rol: &a&lINOCENTE'
-      subtitle: '&fRecoge oro o escóndete'
+      title: '&fO teu rol: &a&lINOCENTE'
+      subtitle: '&fRecolle ouro o escóndete'
   wait:
-    countdown: '&fMurder&cMystery &7» &eEl juego empieza en %time% segundos'
+    countdown: '&fMurder&cMystery &7» &eO xogo comeza en %time% segundos'
   join:
-    error: '&fMurder&cMystery &7» &7Esta arena ya ha empezado'
-    alreadyplaying: '&fMurder&cMystery &7» &7Ya estás en una arena'
-    gamefull: '&fMurder&cMystery &7» &7La arena está completa'
-    noarenas: '&fMurder&cMystery &7» &7No hay arenas disponibles'
-    playerjoined: '&fMurder&cMystery &7» &e%player% &7ha entrado &8(%min%/%max%)&7!'
-    playerleaved: '&fMurder&cMystery &7» &7%player% &7ha salido&7!'
-    notinarena: '&fMurder&cMystery &7» &7No estás en una arena'
+    error: '&fMurder&cMystery &7» &7Esta arena xa empezou'
+    alreadyplaying: '&fMurder&cMystery &7» &7Xa estás nunha arena'
+    gamefull: '&fMurder&cMystery &7» &7A arena está completa'
+    noarenas: '&fMurder&cMystery &7» &7Non hai arenas dispoñibles'
+    playerjoined: '&fMurder&cMystery &7» &e%player% &7entrou &8(%min%/%max%)&7!'
+    playerleaved: '&fMurder&cMystery &7» &7%player% &7fuxiu&7!'
+    notinarena: '&fMurder&cMystery &7» &7Non estás nunha arena'
   state:
-    playing: '&cJugando'
-    waiting: '&aLobbys'
-    starting: '&cEmpezando'
+    playing: '&cXogando'
+    waiting: '&aLobbies'
+    starting: '&cComezando'
     voting: '&dVotando'
 scoreboard:
   vote:
@@ -104,16 +101,16 @@ vote:
   alreadyselected: '&fMurder&cMystery &7» &7Ya se ha elegido la arena'
 score:
   reason:
-    pickgold: por recoger oro
-    killplayer: por matar un jugador
+    pickgold: por recoller ouro
+    killplayer: por matar un xogador
   received: '&6+&e%score% &6puntos (%reason%)'
 chat:
   prefixspec: '&e&lESPECTADOR: &f'
 roles:
-  murder: '&c&lAsesino'
+  murder: '&c&lAsasino'
   detective: '&b&lDetective'
   innocent: '&a&lInocente'
-  death: Muerto
+  death: Morto
 setup:
   lobbyset: '&fMurder&cMystery &7» &eLobby has been set!'
   arenacreated: '&fMurder&cMystery &7» &eArena has been created!'
@@ -130,12 +127,31 @@ signs:
   header: '&lMurderMistery'
   state:
     ingame: '&4In_Game'
-    join: '&AAcceder'
-    starting: '&6Comenzando...'
+    join: '&aEntrar'
+    starting: '&6Comezando...'
     arenainfo: '&0&o%arena%'
     players: min/max
   random:
     '1': '&aMurder'
-    '2': '&0Pulsa para elegir'
+    '2': '&0Pulsa para elixir'
     '3': '&0arena aleatoria'
     '4': ''
+deathcause:
+  unknown: '&fMurder&cMystery &7» &7%player% &emorreu por causas descoñecidas'
+  murder2detective: '&fMurder&cMystery &7» &eO asasino &c%player% &efoi neutralizado
+    por un detective'
+  murder2inocent: '&fMurder&cMystery &7» &eO asasino &c%player% &eatopouse cun inocente armado'
+  detective2murder: '&fMurder&cMystery &7» &eO detective &b%player% &emorreu a mans
+    dun asasino'
+  detective2innocent: '&fMurder&cMystery &7» &eUn inocente confundiu ao detective
+    &b%player% &ecun asasino'
+  inocent2murderer: '&fMurder&cMystery &7» &a%player% &efoi asasinado'
+  inocent2detective: '&fMurder&cMystery &7» &eUn mal detective levouse por diante a &a%player%'
+  mistakeino2ino: '&fMurder&cMystery &7» &a%player% &efoi asasinado por un compañeiro'
+  mistakedet2det: '&fMurder&cMystery &7» &b%player% &efoi executado por un mal detective'
+  falldamage: '&fMurder&cMystery &7» &7%player% &etopou co chan'
+  waterdamage: '&fMurder&cMystery &7» &7%player% &eafogou'
+  lavadamage: '&fMurder&cMystery &7» &7%player% &efundiuse coa lava'
+  mistaking: '&fMurder&cMystery &7» &7%player% &efoi eliminado por equivocarse'
+  cactus: '&fMurder&cMystery &7» &7%player% &e pinchou ata morrer'
+  void: '&fMurder&cMystery &7» &7%player% &etocou fondo'

@@ -1,108 +1,107 @@
 xas: asass
 lateral:
   header: '&e&lEDLB'
-  puntos: '&ePuntos: &f%var%'
-  asesinatos: '&eAsesinatos: &f%var%'
-  muertes: '&eMuertes: &f%var%'
-  ganadas: '&eGanadas: &f%var%'
-  perdidas: '&ePerdidas: &f%var%'
-  monedas: '&eMonedas: &f%var%'
+  puntos: '&ePoints: &f%var%'
+  asesinatos: '&eAssassinats: &f%var%'
+  muertes: '&eMorts: &f%var%'
+  ganadas: '&eJeux gagnés: &f%var%'
+  perdidas: '&eJeux perdus: &f%var%'
+  monedas: '&ePièces: &f%var%'
   skin: '&eSkin: &f%var%'
   kit: '&eKit: &f%var%'
   skinno: '&eSkin: &f-'
   lobby:
     header: '&e&lEDLB'
-    puntos: '&ePuntos: &f%var%'
-    asesinatos: '&eAsesinatos: &f%var%'
-    muertes: '&eMuertes: &f%var%'
-    ganadas: '&eGanadas: &f%var%'
-    perdidas: '&ePerdidas: &f%var%'
-    monedas: '&eMonedas: &f%var%'
+    puntos: '&ePoints: &f%var%'
+    asesinatos: '&eAssasinats: &f%var%'
+    muertes: '&eMorts: &f%var%'
+    ganadas: '&eJeux gagnés: &f%var%'
+    perdidas: '&eJeux perdus: &f%var%'
+    monedas: '&ePièces: &f%var%'
     skin: '&eSkin: &f%var%'
     kit: '&eKit: &f%var%'
     skinno: '&eSkin: &f-'
     kitno: '&eKit: &f-'
   ingame:
-    players: '&a&lCorredores'
-    time: '&c&lTiempo'
-    map: '&b&lMapa'
+    players: '&a&lCoureurs'
+    time: '&c&lTemps'
+    map: '&b&lMap'
 arena:
   join:
-    player: '&a&l%map% &7%player% &aha entrado a la arena &7(&e%pl%&7/&e%maxpl%&7)'
-    joinwhenfull: '&a&l%map% &7%player% &aha entrado a la arena &launque estaba llena'
+    player: '&a&l%map% &7%player% &aest entré à la partie &7(&e%pl%&7/&e%maxpl%&7)'
+    joinwhenfull: '&a&l%map% &7%player% &aest entré à la partie &lbien que la partie était pleine'
   death:
-    killed: '&a&l%map% &e%asesino% &ate ha matado'
-    runner: '&a&l%map% &7%p% &cmurio'
-    beastkilledrunner: '&a&l%map% &cLa bestia ha matado a &7%p%'
-    beast: '&a&l%map% &cLa bestia murio'
-    runnerkilledbeast: '&a&l%map% &7%p% &cmato a la bestia'
+    killed: '&a&l%map% &e%asesino% &at''a tué '
+    runner: '&a&l%map% &7%p% &cest mort'
+    beastkilledrunner: '&a&l%map% &cLa bête a tué &7%p%'
+    beast: '&a&l%map% &cLa bête est mort'
+    runnerkilledbeast: '&a&l%map% &7%p% &ca tué la bête'
   start:
-    shorted: '&a&l%map% &a&Arena llena? &Que empezamos en &e%segundos% &asegundos!'
-    notplayers: '&a&l%map% &cNecesitas &e%numero% &cjugadores para empezar'
+    shorted: '&a&l%map% &aLa partie est pleine? On commencera en &e%segundos% &asecondes!'
+    notplayers: '&a&l%map% &cTu as besoin de &e%numero% &cjoueurs pour commencer'
   leave:
-    penalice: '&a&l%map% &cHas salido de la partida en curso &7(&c-%puntos% &epuntos&7)'
-  error: '&cHa ocurrido un error con esta arena'
-  arenafull: '&2La arena está llena'
-  gamealreadystarted: '&cEl juego ya ha empezado'''
+    penalice: '&a&l%map% &cTu as sorti de la partie en cours &7(&c-%puntos% &epoints&7)'
+  error: '&cUne erreur est survenue avec la partie'
+  arenafull: '&2La partie est pleine'
+  gamealreadystarted: '&cLe jeu a déjà commencé'
   game:
-    nominplayers: '&a&l%map% &cFaltan jugadores. Cancelando tiempo...'
-    beastchosen: '&a&l%map% ¡&e&n%p%&r&e ha sido elegido como la &lBESTIA!'
-    starting: '&a&l%map% &eEmpezamos en %t%s!'
-    started: '&e&l¡CORRE! La bestia será liberada en 15s!'
+    nominplayers: '&a&l%map% &cIl manque des joueurs, en train d''annuler le chronomètre'
+    beastchosen: '&a&l%map% ¡&e&n%p%&r&e a été elu comme la &lBÊTE!'
+    starting: '&a&l%map% &eOn commence en %t%s!'
+    started: '&e&l¡COURS! La bête sera libéré en 15s!'
     title:
-      start: '&6&lEmpezamos en'
-      start2: '&c%segundos% &6segundos'
-    skinapplied: '&b&lSKIN &aDisfraz aplicado'
-    run: '&c&l&CORRE!'
-    killthem: '&c&l&MÁTALOS!'
-    killthem2: '&cNo tengas piedad'
-    paseused: '&a&l%map% &b&n%b%&l ha usado el pase bestia'
-  noexist: '&cLa arena no existe!'
-  noavailable: '&c&lERROR&c No hay arenas disponibles'
+      start: '&6&lOn commence en'
+      start2: '&c%segundos% &6secondes'
+    skinapplied: '&b&lSKIN &aDéguisement equipé'
+    run: '&c&lCOURS!'
+    killthem: '&c&lAsessinez eux!'
+    killthem2: '&cN''avez rien de pitié'
+    paseused: '&a&l%map% &b&n%b%&l a utilisé le passe du bête'
+  noexist: '&cLa partie n''existe pas!'
+  noavailable: '&c&lERREUR&c Il n''y a pas des parties disponibles'
 locale:
   localename: Français
   localizedname: '&1Fra&fnça&4is'
-  changed: Cambiaste tu idioma a §1Fra§fnça§4is
+  changed: Tu as changé ta langue à §1Fra§fnça§4is
 effect:
   title:
     givesec: '&b+%sec%&es'
     effectname: '&e%efecto%'
-  applied: '&eAhora tienes &b%efecto% &epor &b%sec% &esec'
+  applied: '&eMaintenant vous avez &b%efecto% &ependant &b%sec% &esec'
 chat:
   global: '&c&l[G] &7%player%&7: &f%mensaje%'
-  cmddenygame: '&c¡No puedes ejecutar ese comando en juego! Sal con &f/salir'
-  noperms: '&cNo tienes permisos para hacer eso!'
-  nopermsvip: '&c&lERROR &cEste comando es para &6&lVIPS'
-  denyduringgame: '&c&lERROR &cNo puedes hacer esto durante la partida'
+  cmddenygame: '&c¡Vous ne pouvez pas utiliser ça ordre! Sortez avec &f/salir'
+  noperms: '&cVous n''avez pas des permissions pour faire ça!'
+  nopermsvip: '&c&lERREUR &cCette ordre est pour &6&lVIPS'
+  denyduringgame: '&c&lERREUR &cVous ne pouvez pas faire ça pendant le joue'
 stats:
   action:
-    killbeast: matar a la bestia
-    killrunner: matar a un corredor
-    wingame: ganar la partida
-  wonpoints: '&b&lPUNTOS &b+&e%puntos% &bpuntos (&e%monedas% &bmonedas) por &e%accion%'
+    killbeast: 'Asessiner la bête'
+    killrunner: 'Asessiner un coureur'
+    wingame: 'Gagner le joue'
+  wonpoints: '&b&lPOINTS &b+&e%puntos% &bpoints (&e%monedas% &bpièces) pour &e%accion%'
 actionbar:
-  map: Mapa - &c%map% &r %p%/%maxp%
-  starting: '&cEl juego empieza en &r%t%s'
-  runnow: '&c&lCORRE! &7La bestia sera liberada en &c%t%s'
-  endinggame: ¡Volviendo al lobby en %t%s!
+  map: Map - &c%map% &r %p%/%maxp%
+  starting: '&cLe joue commence en &r%t%s'
+  runnow: '&c&lCOURS! &7la bête sera libéré en &c%t%s'
+  endinggame: '¡En train de revenir à l''hall d''entrée en %t%s!'
 setup:
   writename: ' ¡Escribe un nombre para la arena!'
   signdeleted: ¡Cartel eliminado!
   configurefirst: '&c¡Debes configurar la arena completamente antes de colocar carteles!'
 checkpoint:
-  set: '&b&lCHECK&f&lPOINT &a¡Establecido!'
-  return: '&b&lCHECK&f&lPOINT &7&lClic Izquierdo&r&7 para volver aquí'
-  notset: '&b&lCHECK&f&lPOINT &c¡No tienes ningun Checkpoint configurado!'
+  set: '&b&lCHECK&f&lPOINT &a¡Établi!'
+  return: '&b&lCHECK&f&lPOINT &7&lClic gauche&r&7 pour revenir ici'
+  notset: '&b&lCHECK&f&lPOINT &c¡Vous n''avez pas un Checkpoint configuré!'
 happyhour:
-  prefix: '&b&lHORA FELIZ&e '
-  double: '&aMonedas dobles activadas durante %horas%'
-  multiply: '&eTus monedas han sido multiplicadas &ax2'
+  prefix: '&b&lL''HEURE HEREUX&e '
+  double: '&aPièces doubles activé pendant %horas%'
+  multiply: '&eVos pièces ont été multiplié &ax2'
 store:
-  taken: Se han retirado %puntos% monedas por la compra
-  alreadykit: '&b&lKIT &cYa tienes un kit comprado. &salo antes de seleccionar otro'
-  alreadyskin: '&b&lSKIN &cYa tienes una skin comprada. &salo antes de seleccionar
-    otro'
-  nomoney: '&cNo tienes suficientes puntos'
-  buypase: '&b&lEquipado con pase bestia'
+  taken: 'S''ont retiré %puntos% pièces pour l''achet'
+  alreadykit: '&b&lKIT &cVous avez déja un kit acheté.'
+  alreadyskin: '&b&lSKIN &cVous avez déja un skin acheté.'
+  nomoney: '&cVous n''avez pas suffisants points'
+  buypase: '&b&lEquipé avec le passe du bête'
 compass:
-  distance: '&7Distancia a &c%jugador%&7: &c%bloques% &7metros'
+  distance: '&7Distance à &c%jugador%&7: &c%bloques% &7mètres'

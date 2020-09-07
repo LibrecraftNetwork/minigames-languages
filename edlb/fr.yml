@@ -4,8 +4,8 @@ lateral:
   puntos: '&ePoints: &f%var%'
   asesinatos: '&eAssassinats: &f%var%'
   muertes: '&eMorts: &f%var%'
-  ganadas: '&eJeux gagnés: &f%var%'
-  perdidas: '&eJeux perdus: &f%var%'
+  ganadas: '&eJeux Gagnés: &f%var%'
+  perdidas: '&eJeux Perdus: &f%var%'
   monedas: '&ePièces: &f%var%'
   skin: '&eSkin: &f%var%'
   kit: '&eKit: &f%var%'
@@ -15,8 +15,8 @@ lateral:
     puntos: '&ePoints: &f%var%'
     asesinatos: '&eAssasinats: &f%var%'
     muertes: '&eMorts: &f%var%'
-    ganadas: '&eJeux gagnés: &f%var%'
-    perdidas: '&eJeux perdus: &f%var%'
+    ganadas: '&eJeux Gagnés: &f%var%'
+    perdidas: '&eJeux Perdus: &f%var%'
     monedas: '&ePièces: &f%var%'
     skin: '&eSkin: &f%var%'
     kit: '&eKit: &f%var%'
@@ -70,19 +70,19 @@ effect:
   applied: '&eMaintenant vous avez &b%efecto% &ependant &b%sec% &esec'
 chat:
   global: '&c&l[G] &7%player%&7: &f%mensaje%'
-  cmddenygame: '&c¡Vous ne pouvez pas utiliser ça ordre! Sortez avec &f/salir'
+  cmddenygame: '&c¡Vous ne pouvez pas utiliser ça commande! Sortez avec &f/salir'
   noperms: '&cVous n''avez pas des permissions pour faire ça!'
-  nopermsvip: '&c&lERREUR &cCette ordre est pour &6&lVIPS'
-  denyduringgame: '&c&lERREUR &cVous ne pouvez pas faire ça pendant le joue'
+  nopermsvip: '&c&lERREUR &cCette commande est pour &6&lVIPS'
+  denyduringgame: '&c&lERREUR &cVous ne pouvez pas faire ça pendant le jeu'
 stats:
   action:
     killbeast: 'Asessiner la bête'
     killrunner: 'Asessiner un coureur'
-    wingame: 'Gagner le joue'
+    wingame: 'Gagner le jeu'
   wonpoints: '&b&lPOINTS &b+&e%puntos% &bpoints (&e%monedas% &bpièces) pour &e%accion%'
 actionbar:
   map: Map - &c%map% &r %p%/%maxp%
-  starting: '&cLe joue commence en &r%t%s'
+  starting: '&cLe jeu commence en &r%t%s'
   runnow: '&c&lCOURS! &7la bête sera libéré en &c%t%s'
   endinggame: '¡En train de revenir à l''hall d''entrée en %t%s!'
 setup:

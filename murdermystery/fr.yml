@@ -1,27 +1,27 @@
 locale:
-  localename: Español
-  localizedname: '&4Es&6pañ&4ol'
-  changed: Cambiaste tu idioma a §4Es§6pañ§4ol
+  localename: Français
+  localizedname: '&1Fra&fnça&4is'
+  changed: 'Tu as changé ta langue à §1Fra§fnça§4is'
 xas: asass
 potion:
-  title: '&bPocion de %type%'
-  subtitle: '&eDura %time% segundos'
-  alreadyinuse: '&fMurder&cMystery &7» &7Esta poción ya está en uso'
-  needmoregold: '&fMurder&cMystery &7» &7No tienes oro suficiente para usar las  pociones'
-  used: '&fMurder&cMystery &7» &eUsaste una poción'
+  title: '&bPotion de %type%'
+  subtitle: '&eDure %time% secondes'
+  alreadyinuse: '&fMurder&cMystery &7» &7Cette potion est déjà en utilise'
+  needmoregold: '&fMurder&cMystery &7» &7Vous n''avez pas sufficent or pour utiliser des potions'
+  used: '&fMurder&cMystery &7» &eVous avez utilisé une potion'
 progressbar:
   '1': '&a▆'
   '2': '&c▆'
 sword:
-  cooldownab: '&a&lEspera &f[%progress%&f]'
-  ready: '&a&lYa puedes volver a lanzar la espada'
-  cooldown: '&fMurder&cMystery &7» &7Espera para usar la espada'
+  cooldownab: '&a&lAttendez &f[%progress%&f]'
+  ready: '&a&lVous pouvez lancer l''épée encore fois déjà'
+  cooldown: '&fMurder&cMystery &7» &7Attendez pour utiliser l''épée'
 bow:
-  cooldown: '&fMurder&cMystery &7» &7Espera para usar el arco'
-  cooldownab: '&a&lEspera &f[%progress%&f]'
-  ready: '&a&lYa puedes usar el arco de nuevo'
-  dropped: '&cArco: &aLibre'
-  notdropped: '&cArco: &4Ocupado'
+  cooldown: '&fMurder&cMystery &7» &7Attendez pour utiliser l''arc'
+  cooldownab: '&a&lAttendez &f[%progress%&f]'
+  ready: '&a&Vous pouvez utiliser l''arc encore fois déjà'
+  dropped: '&cArc: &aLibre'
+  notdropped: '&cArc: &4Occupé'
 cmd:
   reset:
     error: '&fMurder&cMystery &7» &7Could not reset stats, play games then you will
@@ -31,57 +31,56 @@ cmd:
     notonline: '&fMurder&cMystery &7» &7That player is not online!'
 arena:
   leave:
-    personalmessage: '&cHas abandonado el juego'
+    personalmessage: '&cTu as sortí la partie'
   game:
     death:
-      title: '&cFuiste asesinado'
-      subtitle: '&epor &c%killer%'
-    swordreceived: '&fMurder&cMystery &7» &7El asesino ha recibido la espada'
-    bowlocation: '&eDistancia al arco: &b(%loc%) &epasos'
-    playerlocation: '&f%player% &bestá a &e%distance%m'
+      title: '&cTu as été tué'
+      subtitle: '&epar &c%killer%'
+    swordreceived: '&fMurder&cMystery &7» &7l''assassin a reçu l''épée'
+    bowlocation: '&eDistance à l''arc: &b(%loc%) &epas'
+    playerlocation: '&f%player% &best à &e%distance%m'
     receivedbow:
-      title: '&aHas recibido un arco'
-      subtitle: '&fTiene una flecha para disparar al asesino!'
-    spectating1: '&fMurder&cMystery &7» &eAhora eres un espectador'
-    spectating2: '&fMurder&cMystery &7» &eEres un espectador. Usa /salir para abandonar.
-      &c&lRECUERDA: &eLos jugadores NO VEN el chat de espectador'
-    bowpicked: '&fMurder&cMystery &7» &eAlguien ha recogido el arco'
-    joinedwhenfull: '&fMurder&cMystery &7» &e%player% &7ha entrado a la arena &launque
-      estaba llena&7!'
+      title: '&aVous avez reçu un arc'
+      subtitle: '&fa une flèche pour tuer l''assessin!'
+    spectating1: '&fMurder&cMystery &7» &eMaintenant tu es un spectateur'
+    spectating2: '&fMurder&cMystery &7» &eTu est un spectateur. utilisez /salir pour sortir.
+      &c&lSOUVIENS-TOI: &eLes joueurs NE VOYONS PAS le chat de spectateur'
+    bowpicked: '&fMurder&cMystery &7» &eQuelqu''un a récupéré l''arc'
+    joinedwhenfull: '&fMurder&cMystery &7» &e%player% &7est entré(e) la partie, 
+     bien que été pleine&7!'
   start:
-    title1: '&cEmpieza en'
-    title2: '&e%time% &esegundos'
-    timestarting: '&fMurder&cMystery &7» &eEmpezando cuenta atrás...'
-    nominplayers: '&fMurder&cMystery &7» &7No hay jugadores suficientes para empezar.
-      Cancelando...'
+    title1: '&cCommence en'
+    title2: '&e%time% &esecondes'
+    timestarting: '&fMurder&cMystery &7» &eEn train de commencer le compte à rebours ...'
+    nominplayers: '&fMurder&cMystery &7» &7Il manque des joueurs, en train d''annuler le chronomètre'
   rolegiven:
     murder:
-      title: '&fTu rol: &c&lASESINO'
-      subtitle: '&fMátalos a todos! Que no te descubran...'
+      title: '&fTon rôle: &c&lASSESSIN'
+      subtitle: '&fTUEZ TOUS ET TOUTES! n''est pas être découvert...'
     detective:
-      title: '&fTu rol: &b&lDETECTIVE'
-      subtitle: '&fEncuentra el asesino y mátalo'
+      title: '&fTon rôle: &b&lINSPECTEUR'
+      subtitle: '&fTrouvez l''assessin et tuez lui'
     innocent:
-      title: '&fTu rol: &a&lINOCENTE'
-      subtitle: '&fRecoge oro o escóndete'
+      title: '&fTon rôle: &a&lINOCENTE'
+      subtitle: '&fRamassez l''or ou vous cachez'
   wait:
-    countdown: '&fMurder&cMystery &7» &eEl juego empieza en %time% segundos'
+    countdown: '&fMurder&cMystery &7» &eLa partie commence en %time% secondes'
   join:
-    error: '&fMurder&cMystery &7» &7Esta arena ya ha empezado'
-    alreadyplaying: '&fMurder&cMystery &7» &7Ya estás en una arena'
-    gamefull: '&fMurder&cMystery &7» &7La arena está completa'
-    noarenas: '&fMurder&cMystery &7» &7No hay arenas disponibles'
-    playerjoined: '&fMurder&cMystery &7» &e%player% &7ha entrado &8(%min%/%max%)&7!'
-    playerleaved: '&fMurder&cMystery &7» &7%player% &7ha salido&7!'
-    notinarena: '&fMurder&cMystery &7» &7No estás en una arena'
+    error: '&fMurder&cMystery &7» &7Le jeu a déjà commencé'
+    alreadyplaying: '&fMurder&cMystery &7» &7Vous êtes déjà en une partie'
+    gamefull: '&fMurder&cMystery &7» &7La partie est pleine'
+    noarenas: '&fMurder&cMystery &7» &7Pas de parties disponibles'
+    playerjoined: '&fMurder&cMystery &7» &e%player% &7est entré(e) &8(%min%/%max%)&7!'
+    playerleaved: '&fMurder&cMystery &7» &7%player% &7est sortí(e)&7!'
+    notinarena: '&fMurder&cMystery &7» &7Tu n''es pas en une partie'
   state:
-    playing: '&cJugando'
+    playing: '&cEn train de jouer'
     waiting: '&aLobbys'
-    starting: '&cEmpezando'
-    voting: '&dVotando'
+    starting: '&cEn train de commencer'
+    voting: '&dEn train de voter'
 scoreboard:
   vote:
-    title: '&aVotación de mapa'
+    title: '&aVotation de la map'
     map: '&e%map% &b(%votes%)'
   lobby:
     title: '&LMURDER &C&LMYSTERY'
@@ -94,23 +93,23 @@ scoreboard:
   stats:
     title: '&LMURDER &C&LMYSTERY'
 vote:
-  timestarted: '&fMurder&cMystery &7» &eHa empezado el tiempo para elegir mapa.  Utiliza
-    el objeto de tu inventario.'
-  mapwin: '&fMurder&cMystery &7» &eSe ha elegido el mapa &b%map%'
-  noperms: '&fMurder&cMystery &7» &7No tienes permisos para votar'
-  alreadyselected: '&fMurder&cMystery &7» &7Ya se ha elegido la arena'
+  timestarted: '&fMurder&cMystery &7» &eA commencé le temps pour choisir la map.  Utilisez
+    l''objet de ton inventaire.'
+  mapwin: '&fMurder&cMystery &7» &eLa map est choisi &b%map%'
+  noperms: '&fMurder&cMystery &7» &7Vous n''avez rien de permission pour voter'
+  alreadyselected: '&fMurder&cMystery &7» &7La map est déjà choisi'
 score:
   reason:
-    pickgold: por recoger oro
-    killplayer: por matar un jugador
-  received: '&6+&e%score% &6puntos (%reason%)'
+    pickgold: 'Pour ramasser l''or'
+    killplayer: 'Pour touer un joueur'
+  received: '&6+&e%score% &6points (%reason%)'
 chat:
-  prefixspec: '&e&lESPECTADOR: &f'
+  prefixspec: '&e&lSPECTATEUR: &f'
 roles:
-  murder: '&c&lAsesino'
-  detective: '&b&lDetective'
-  innocent: '&a&lInocente'
-  death: Muerto
+  murder: '&c&lAssesin'
+  detective: '&b&lInspecteur'
+  innocent: '&a&lInnocent'
+  death: 'Mort'
 setup:
   lobbyset: '&fMurder&cMystery &7» &eLobby has been set!'
   arenacreated: '&fMurder&cMystery &7» &eArena has been created!'
@@ -127,33 +126,32 @@ signs:
   header: '&lMurderMistery'
   state:
     ingame: '&4In_Game'
-    join: '&AAcceder'
-    starting: '&6Comenzando...'
+    join: '&AAccéder'
+    starting: '&6En train de commencer...'
     arenainfo: '&0&o%arena%'
     players: min/max
   random:
     '1': '&aMurder'
-    '2': '&0Pulsa para elegir'
-    '3': '&0arena aleatoria'
+    '2': '&0Appuyer pour choisir'
+    '3': '&0Map aléatoire'
     '4': ''
 deathcause:
-  unknown: '&fMurder&cMystery &7» &7%player% &emurió por causas desconocidas'
-  murder2detective: '&fMurder&cMystery &7» &eEl asesino &c%player% &efue neutralizado
-    por un detective'
-  murder2inocent: '&fMurder&cMystery &7» &eEl asesino &c%player% &ese encontró con
-    un inocente armado'
-  detective2murder: '&fMurder&cMystery &7» &eEl detective &b%player% &emurió a manos
-    de un asesino'
-  detective2innocent: '&fMurder&cMystery &7» &eUn inocente confundió al detective
-    &b%player% &econ un asesino'
-  inocent2murderer: '&fMurder&cMystery &7» &a%player% &efue asesinado'
-  inocent2detective: '&fMurder&cMystery &7» &eUn mal detective se llevó por delante
-    a &a%player%'
-  mistakeino2ino: '&fMurder&cMystery &7» &a%player% &efue asesinado por un compañero'
-  mistakedet2det: '&fMurder&cMystery &7» &b%player% &efue ejecutado por un mal detective'
-  falldamage: '&fMurder&cMystery &7» &7%player% &ese estrelló contra el suelo'
-  waterdamage: '&fMurder&cMystery &7» &7%player% &ese ahogó'
-  lavadamage: '&fMurder&cMystery &7» &7%player% &ese fundió en la lava'
-  mistaking: '&fMurder&cMystery &7» &7%player% &efue eliminado por equivocarse'
-  cactus: '&fMurder&cMystery &7» &7%player% &ese pinchó hasta la muerte'
-  void: '&fMurder&cMystery &7» &7%player% &etocó fondo'
+  unknown: '&fMurder&cMystery &7» &7%player% &eest morte pour cause inconnu'
+  murder2detective: '&fMurder&cMystery &7» &eL''assessin &c%player% &ea été arrêté
+    par un inspecteur'
+  murder2inocent: '&fMurder&cMystery &7» &eL''assessin &c%player% &ea rencontré avec 
+    un innocent armé'
+  detective2murder: '&fMurder&cMystery &7» &eL''inspecteur &b%player% &eest mort par 
+    un assessin'
+  detective2innocent: '&fMurder&cMystery &7» &eUn inocent a confondu l''inspecteur
+    &b%player% &eavec l''assessin'
+  inocent2murderer: '&fMurder&cMystery &7» &a%player% &ea été tué'
+  inocent2detective: '&fMurder&cMystery &7» &eUn mauvais inspecteur a tué à &a%player%'
+  mistakeino2ino: '&fMurder&cMystery &7» &a%player% &ea été tué par un camarade'
+  mistakedet2det: '&fMurder&cMystery &7» &b%player% &ea été tué par un mauvais inspecteur'
+  falldamage: '&fMurder&cMystery &7» &7%player% &es''est écrasé contre l''étage'
+  waterdamage: '&fMurder&cMystery &7» &7%player% &es''est noyé(e)'
+  lavadamage: '&fMurder&cMystery &7» &7%player% &ea fait fondre avec la lave'
+  mistaking: '&fMurder&cMystery &7» &7%player% &ea été fué pour faire des erreurs'
+  cactus: '&fMurder&cMystery &7» &7%player% &es''est piqué jusqu''à sa mort'
+  void: '&fMurder&cMystery &7» &7%player% &etouché au fond'

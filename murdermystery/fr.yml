@@ -40,8 +40,8 @@ arena:
     bowlocation: '&eDistance à l''arc: &b(%loc%) &epas'
     playerlocation: '&f%player% &best à &e%distance%m'
     receivedbow:
-      title: '&aVous avez reçu un arc'
-      subtitle: '&fa une flèche pour tuer l''assessin!'
+      title: '&a+1'
+      subtitle: '&fflèche'
     spectating1: '&fMurder&cMystery &7» &eMaintenant tu es un spectateur'
     spectating2: '&fMurder&cMystery &7» &eTu est un spectateur. utilisez /salir pour sortir.
       &c&lSOUVIENS-TOI: &eLes joueurs NE VOYONS PAS le chat de spectateur'
@@ -55,13 +55,13 @@ arena:
     nominplayers: '&fMurder&cMystery &7» &7Il manque des joueurs, en train d''annuler le chronomètre'
   rolegiven:
     murder:
-      title: '&fTon rôle: &c&lASSESSIN'
+      title: '&fRôle: &c&lASSESSIN'
       subtitle: '&fTUEZ TOUS ET TOUTES! n''est pas être découvert...'
     detective:
-      title: '&fTon rôle: &b&lINSPECTEUR'
+      title: '&fRôle: &b&lINSPECTEUR'
       subtitle: '&fTrouvez l''assessin et tuez lui'
     innocent:
-      title: '&fTon rôle: &a&lINOCENTE'
+      title: '&fRôle: &a&lINOCENTE'
       subtitle: '&fRamassez l''or ou vous cachez'
   wait:
     countdown: '&fMurder&cMystery &7» &eLa partie commence en %time% secondes'

@@ -40,8 +40,8 @@ arena:
     bowlocation: '&eDistancia ao arco: &b(%loc%) &epasos'
     playerlocation: '&f%player% &bestá a &e%distance%m'
     receivedbow:
-      title: '&aRecibiches un arco'
-      subtitle: '&fTen unha frecha para disparar ao asasino!'
+      title: '&a+1'
+      subtitle: '&fdisparo'
     spectating1: '&fMurder&cMystery &7» &eAgora eres un espectador'
     spectating2: '&fMurder&cMystery &7» &eEres un espectador. Emprega /salir para abandonar.
       &c&lLEMBRA: &eOs jugadores NON VEN o chat de espectador'
@@ -56,13 +56,13 @@ arena:
       Cancelando...'
   rolegiven:
     murder:
-      title: '&fO teu rol: &c&lASASINO'
+      title: '&fRrol: &c&lASASINO'
       subtitle: '&fMátaos a todos! Que non che descubran...'
     detective:
-      title: '&fO teu rol: &b&lDETECTIVE'
+      title: '&fRol: &b&lDETECTIVE'
       subtitle: '&fAtopa ao asasino e mátao'
     innocent:
-      title: '&fO teu rol: &a&lINOCENTE'
+      title: '&fRol: &a&lINOCENTE'
       subtitle: '&fRecolle ouro o escóndete'
   wait:
     countdown: '&fMurder&cMystery &7» &eO xogo comeza en %time% segundos'

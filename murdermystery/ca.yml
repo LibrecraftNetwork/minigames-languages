@@ -1,0 +1,151 @@
+locale:
+  localename: Català
+  localizedname: '&eCatalà'
+  changed: "Has canviat l'idioma a §eCatalà"
+xas: asass
+potion:
+  title: '&bPoció de %type%'
+  subtitle: '&eDura %time% segons'
+  alreadyinuse: '&fMurder&cMystery &7» &7Aquesta poció ja està en ús'
+  needmoregold: '&fMurder&cMystery &7» &7No tens or suficient per usar les pocions'
+  used: '&fMurder&cMystery &7» &eHas fet servir una poció'
+progressbar:
+  '1': '&a▆'
+  '2': '&c▆'
+sword:
+  cooldownab: '&a&lEspera &f[%progress%&f]'
+  ready: "&a&lJa pots tornar a llençar l'espasa"
+  cooldown: "&fMurder&cMystery &7» &7Espera per fer servir l'espasa"
+bow:
+  cooldown: "&fMurder&cMystery &7» &7Espera per fer servir l'arc"
+  cooldownab: '&a&lEspera &f[%progress%&f]'
+  ready: "&a&lJa pots fer servir l'arc de nou"
+  dropped: '&cArco: &aLliure'
+  notdropped: '&cArco: &4Ocupat'
+cmd:
+  reset:
+    error: '&fMurder&cMystery &7» &7Could not reset stats, play games then you will
+      be able to reset stats!'
+    success: '&fMurder&cMystery &7» &eStats was reset successfully!'
+  error:
+    notonline: '&fMurder&cMystery &7» &7That player is not online!'
+arena:
+  leave:
+    personalmessage: '&cHas abandonat el joc'
+  game:
+    death:
+      title: '&cHas sigut assassinat'
+      subtitle: '&eper &c%killer%'
+    swordreceived: "&fMurder&cMystery &7» &7L'assassí ha rebut l'espasa"
+    bowlocation: "&eDistància a l'arc: &b(%loc%) &epassos"
+    playerlocation: '&f%player% &bestà a &e%distance%m'
+    receivedbow:
+      title: '&a+1'
+      subtitle: '&fdisparo'
+    spectating1: '&fMurder&cMystery &7» &eAra ets un espectador'
+    spectating2: '&fMurder&cMystery &7» &eEts un espectador. Usa /salir per abandonar.
+      &c&lRECUERDA: "&eEls jugadors NO VEUEN el xat d'espectador"
+    bowpicked: "&fMurder&cMystery &7» &eAlgú ha recollit l'arc"
+    joinedwhenfull: "&fMurder&cMystery &7» &e%player% &7ha entrat a l'arena &ltot i que estava plena&7!"
+  start:
+    title1: '&cComença en'
+    title2: '&e%time% &esegons'
+    timestarting: '&fMurder&cMystery &7» &eComençant compte enrere...'
+    nominplayers: '&fMurder&cMystery &7» &7No hi ha jugadors suficients per començar. Cancel·lant... '
+  rolegiven:
+    murder:
+      title: '&fRol: &c&lASSASSÍ'
+      subtitle: "&fMàta'ls a tots! Que no et descubreixin..."
+    detective:
+      title: '&fRol: &b&lDETECTIU'
+      subtitle: "&fTroba l'assassí i mata'l"
+    innocent:
+      title: '&fRol: &a&lINNOCENT'
+      subtitle: "&fRecull or o amaga't"
+  wait:
+    countdown: '&fMurder&cMystery &7» &eEl joc comença en %time% segons'
+  join:
+    error: '&fMurder&cMystery &7» &7Aquesta arena ja ha començat'
+    alreadyplaying: '&fMurder&cMystery &7» &7Ja estàs en una arena'
+    gamefull: "&fMurder&cMystery &7» &7L'arena està completa"
+    noarenas: '&fMurder&cMystery &7» &7No hi ha arenes disponibles'
+    playerjoined: '&fMurder&cMystery &7» &e%player% &7ha entrat &8(%min%/%max%)&7!'
+    playerleaved: '&fMurder&cMystery &7» &7%player% &7ha sortit&7!'
+    notinarena: '&fMurder&cMystery &7» &7No estàs en una arena'
+  state:
+    playing: '&cJugant'
+    waiting: '&aLobbys'
+    starting: '&cComençant'
+    voting: '&dVotant'
+scoreboard:
+  vote:
+    title: '&aVotació de mapa'
+    map: '&e%map% &b(%votes%)'
+  lobby:
+    title: '&LMURDER &C&LMYSTERY'
+  waiting:
+    title: '&LMURDER &C&LMYSTERY'
+  countdown:
+    title: '&LMURDER &C&LMYSTERY'
+  game:
+    title: '&LMURDER &C&LMYSTERY'
+  stats:
+    title: '&LMURDER &C&LMYSTERY'
+vote:
+  timestarted: "&fMurder&cMystery &7» &eHa començat el temps per escollir mapa. Utilitza l'objecte del teu inventari."
+  mapwin: "&fMurder&cMystery &7» &eS'ha escollit el mapa &b%map%"
+  noperms: '&fMurder&cMystery &7» &7No tens permisos per votar'
+  alreadyselected: "&fMurder&cMystery &7» &7Ja s'ha escollit l'arena"
+score:
+  reason:
+    pickgold: per recollir or
+    killplayer: per matar un jugador
+  received: '&6+&e%score% &6punts (%reason%)'
+chat:
+  prefixspec: '&e&lESPECTADOR: &f'
+roles:
+  murder: '&c&lAssassí'
+  detective: '&b&lDetectiu'
+  innocent: '&a&lInnocent'
+  death: Mort
+setup:
+  lobbyset: '&fMurder&cMystery &7» &eLobby has been set!'
+  arenacreated: '&fMurder&cMystery &7» &eArena has been created!'
+  arenaalreadyexists: '&fMurder&cMystery &7» &eArena already exits!'
+  arenaremoved: '&fMurder&cMystery &7» &eArena has been removed!'
+  arenanotexists: '&fMurder&cMystery &7» &7Arena not exits!'
+  waitlobbyset: '&fMurder&cMystery &7» &eWait lobby has been set!'
+  addedpotion: '&fMurder&cMystery &7» &eAdded mystery potion block!'
+  removedpotion: '&fMurder&cMystery &7» &eRemoved mystery potion block!'
+  spectatorset: '&fMurder&cMystery &7» &eSpectator position has been set!'
+  playerspawadd: '&fMurder&cMystery &7» &ePlayer spawn added!'
+  goldspawnadd: '&fMurder&cMystery &7» &eGold spawn added!'
+signs:
+  header: '&lMurderMistery'
+  state:
+    ingame: '&4In_Game'
+    join: '&AAccedir'
+    starting: '&6Començant...'
+    arenainfo: '&0&o%arena%'
+    players: min/max
+  random:
+    '1': '&aMurder'
+    '2': '&0Prem per escollir'
+    '3': '&0arena aleatòria'
+    '4': ''
+deathcause:
+  unknown: '&fMurder&cMystery &7» &7%player% &eha mort per causes desconegudes'
+  murder2detective: "&fMurder&cMystery &7» &eL'assassí &c%player% &eha sigut neutralitzat per un detectiu"
+  murder2inocent: "&fMurder&cMystery &7» &eL'assassí &c%player% &es'ha trobat amb un innocent armat"
+  detective2murder: "&fMurder&cMystery &7» &eEl detectiu &b%player% &eha mort en mans d'un assassí"
+  detective2innocent: '&fMurder&cMystery &7» &eUn innocent ha confós al detectiu &b%player% &eamb un assassí'
+  inocent2murderer: '&fMurder&cMystery &7» &a%player% &eha sigut assassinat'
+  inocent2detective: "&fMurder&cMystery &7» &eUn mal detectiu s'ha emportat per endavant a &a%player%"
+  mistakeino2ino: '&fMurder&cMystery &7» &a%player% &eha sigut assassinat per un company'
+  mistakedet2det: '&fMurder&cMystery &7» &b%player% &eha sigut executat per un mal detectiu'
+  falldamage: "&fMurder&cMystery &7» &7%player% &es'ha estavellat contra el terra"
+  waterdamage: "&fMurder&cMystery &7» &7%player% &es'ha ofegat"
+  lavadamage: "&fMurder&cMystery &7» &7%player% &es'ha fos en la lava"
+  mistaking: '&fMurder&cMystery &7» &7%player% &eha sigut eliminat per equivocar-se'
+  cactus: "&fMurder&cMystery &7» &7%player% &es'ha punxat fins la mort"
+  void: '&fMurder&cMystery &7» &7%player% &eha tocat fons'

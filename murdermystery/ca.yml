@@ -43,8 +43,7 @@ arena:
       title: '&a+1'
       subtitle: '&fdisparo'
     spectating1: '&fMurder&cMystery &7» &eAra ets un espectador'
-    spectating2: '&fMurder&cMystery &7» &eEts un espectador. Usa /salir per abandonar.
-      &c&lRECUERDA: "&eEls jugadors NO VEUEN el xat d'espectador"
+    spectating2: "&fMurder&cMystery &7» &eEts un espectador. Utilitza /salir per abandonar. &c&lRECORDA: &eEls jugadors NO VEUEN el xat d'espectador"
     bowpicked: "&fMurder&cMystery &7» &eAlgú ha recollit l'arc"
     joinedwhenfull: "&fMurder&cMystery &7» &e%player% &7ha entrat a l'arena &ltot i que estava plena&7!"
   start:

@@ -11,6 +11,7 @@ Se pueden añadir cualquier idioma que soporte el sistema de escritura izquierda
 * English
 * Français
 * Galego
+* Català
 
 ## Criterios de traducción
 

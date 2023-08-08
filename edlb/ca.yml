@@ -1,0 +1,97 @@
+locale:
+  localename: Català
+  localizedname: '&eCatalà'
+  changed: "Has canviat l'idioma a §eCatalà"
+xas: asass
+lateral:
+  lobby:
+    header: '&e&lEDLB'
+    puntos: '&ePunts: &f%var%'
+    asesinatos: '&eAssassinats: &f%var%'
+    muertes: '&eMorts: &f%var%'
+    ganadas: '&eGuanyades: &f%var%'
+    perdidas: '&ePerdudes: &f%var%'
+    monedas: '&eMonedes: &f%var%'
+    skin: '&eSkin: &f%var%'
+    kit: '&eKit: &f%var%'
+    skinno: '&eSkin: &f-'
+    kitno: '&eKit: &f-'
+  ingame:
+    players: '&a&lCorredors'
+    time: '&c&lTemps'
+    map: '&b&lMapa'
+effect:
+  title:
+    givesec: '&b+%sec%&es'
+    effectname: '&e%efecto%'
+  applied: '&eAra tens &b%efecto% &eper &b%sec% &eseg'
+chat:
+  global: '&c&l[G] &7%player%&7: &f%mensaje%'
+  cmddenygame: '&c¡No pots executar aquesta ordre en joc! Surt amb &f/salir'
+  noperms: '&cNo tens permisos per fer això!'
+  nopermsvip: '&c&lERROR &cAquesta ordre és per &6&lVIPS'
+  denyduringgame: '&c&lERROR &cNo pots fer això durant la partida'
+arena:
+  join:
+    joinwhenfull: "&a&l%map% &7%player% &aha entrat a l'arena &ltot i que estava plena"
+    player: "&a&l%map% &7%player% &aha entrat a l'arena &7(&e%pl%&7/&e%maxpl%&7)"
+  error: '&cHa sorgit un error amb aquesta arena'
+  arenafull: "&2L'arena està plena"
+  gamealreadystarted: '&cEl joc ja ha començat'''
+  game:
+    nominplayers: '&a&l%map% &cFalten jugadors. Cancel·lant temps...'
+    beastchosen: '&a&l%map% &e&n%p%&r&e ha sigut escollit com la &lBESTIA!'
+    starting: '&a&l%map% &eComencem en %t%s!'
+    started: '&e&lCORRE! La bèstia serà alliberada en 15s!'
+    title:
+      start: '&6&lComencem en'
+      start2: '&c%segundos% &6segons'
+    skinapplied: '&b&lSKIN &aDisfressa aplicada'
+    run: '&c&lCORRE!'
+    killthem: "&c&l&MATA'LS!"
+    killthem2: '&cNo tinguis pietat'
+    paseused: '&a&l%map% &b&n%b%&l ha fet servir el passi bèstia'
+  noexist: "&cL'arena no existeix!"
+  noavailable: '&c&lERROR&c No hi ha arenes disponibles'
+  death:
+    killed: "&a&l%map% &e%asesino% &at'ha matat"
+    runner: '&a&l%map% &7%p% &cha mort'
+    beastkilledrunner: '&a&l%map% &cLa bèstia ha matat a &7%p%'
+    beast: '&a&l%map% &cLa bèstia ha mort'
+    runnerkilledbeast: '&a&l%map% &7%p% &cha matat a la bèstia'
+  start:
+    shorted: '&a&l%map% &aArena plena? Que comencem en &e%segundos% &asegons!'
+    notplayers: '&a&l%map% &cNecessites &e%numero% &cjugadors per començar'
+  leave:
+    penalice: '&a&l%map% &cHas sortit de la partida en curs &7(&c-%puntos% &epunts&7)'
+stats:
+  action:
+    killbeast: 'matar a la bèstia'
+    killrunner: matar a un corredor
+    wingame: guanyar la partida
+  wonpoints: '&b&lPUNTS &b+&e%puntos% &bpunts (&e%monedas% &bmonedes) per &e%accion%'
+actionbar:
+  map: Mapa - &c%map% &r %p%/%maxp%
+  starting: '&cEl joc comença en &r%t%s'
+  runnow: '&c&lCORRE! &7La bèstia serè alliberada en &c%t%s'
+  endinggame: Tornant al lobby en %t%s!
+setup:
+  writename: " Escriu un nom per l'arena!"
+  signdeleted: Cartell eliminado!
+  configurefirst: "&cHas de configurar l'arena completament abans de posar cartells!"
+checkpoint:
+  set: '&b&lCHECK&f&lPOINT &aEstablert!'
+  return: '&b&lCHECK&f&lPOINT &7&lClic Esquerre&r&7 per tornar aquí'
+  notset: '&b&lCHECK&f&lPOINT &cNo tens ningun Checkpoint configurat!'
+happyhour:
+  prefix: '&b&lHORA FELIÇ&e '
+  double: '&aMonedes dobles activades durant %horas%'
+  multiply: '&eLes teves monedes han estat multiplicades &ax2'
+store:
+  taken: "S'han retirat %puntos% monedes per la compra"
+  alreadykit: '&b&lKIT &cJa tens un kit comprat. &sFes-lo servir abans de selleccionar un altre'
+  alreadyskin: '&b&lSKIN &cJa tienes una disfressa comprada. &sFes-la servir abans de seleccionar una altra'
+  nomoney: '&cNo tens suficients punts'
+  buypase: '&b&lEquipat con passi bèstia'
+compass:
+  distance: '&7Distància a &c%jugador%&7: &c%bloques% &7metres'

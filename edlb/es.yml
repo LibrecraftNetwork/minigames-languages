@@ -48,7 +48,7 @@ arena:
       start2: '&c%segundos% &6segundos'
     skinapplied: '&b&lSKIN &aDisfraz aplicado'
     run: '&c&l¡CORRE!'
-    killthem: '&c&l&MÁTALOS!'
+    killthem: '&c&l¡MÁTALOS!'
     killthem2: '&cNo tengas piedad'
     paseused: '&a&l%map% &b&n%b%&l ha usado el pase bestia'
   noexist: '&cLa arena no existe!'
